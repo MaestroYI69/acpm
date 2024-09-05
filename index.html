@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EL ACPM</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Grid - Tema Oscuro</title>
+    <link rel="stylesheet" href="ASSETS/CSS/index.css">
+    <link rel="stylesheet" href="ASSETS/CSS/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
@@ -15,7 +16,8 @@
                 <i class="fas fa-bars"></i>
             </div>
             <ul class="nav-menu">
-                <li class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
+                <li class="nav-item"><a href="index.html" class="nav-link">Inicio</a></li>
+                <li class="nav-item"><a href="grid.html" class="nav-link">Grid</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Servicios</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Acerca de</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Contacto</a></li>
@@ -23,24 +25,22 @@
         </div>
     </nav>
     <div class="container">
-        <h1>Formulario de Subida</h1>
-        <form id="uploadForm">
-            <div class="form-group">
-                <label for="name">Nombre:</label>
-                <input type="text" id="name" name="name" required>
-            </div>
-            <div class="form-group">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-            </div>
-            <div class="form-group">
-                <label for="file">Archivo:</label>
-                <input type="file" id="file" name="file" required>
-                <span id="fileName"></span>
-            </div>
-            <button type="submit">Subir</button>
-        </form>
+        <h1>Grid de Contenido</h1>
+        <div class="grid-container">
+            <a href="S1HU1.html"><div class="grid-item">S1HU1</div></a>
+            <div class="grid-item">Item 2</div>
+            <div class="grid-item">Item 3</div>
+            <div class="grid-item">Item 4</div>
+            <div class="grid-item">Item 5</div>
+            <div class="grid-item">Item 6</div>
+            <div class="grid-item">Item 7</div>
+            <div class="grid-item">Item 8</div>
+            <div class="grid-item">Item 9</div>
+            <div class="grid-item">Item 10</div>
+            <div class="grid-item">Item 11</div>
+            <div class="grid-item">Item 12</div>
+        </div>
     </div>
-    <script src="script.js"></script>
+    <script src="ASSETS/js/index.js"></script>
 </body>
 </html>
